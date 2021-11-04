@@ -73,4 +73,4 @@ class TestVarasto(unittest.TestCase):
     def test_string_repr(self):
         self.assertEqual(str(self.varasto), "saldo = 0, vielä tilaa 10")
         self.varasto.lisaa_varastoon(6)
-        self.assertEqual(str(self.varasto), "saldo = 6, vielä tilaa 5")
+        self.assertEqual(str(self.varasto), "saldo = 6, vielä tilaa 4")
